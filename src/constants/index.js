@@ -30,6 +30,8 @@ import {
   python,
   currencyConverterImage,
   pong,
+  baseConverter,
+  drumKit,
 } from "../assets";
 
 export const navLinks = [
@@ -283,6 +285,41 @@ const projects = [
     source_code_link: "https://github.com/gupta-rajan/pong-game.git",
     website_link: "https://drive.google.com/file/d/1nfHawZ_o56zJLdYatLv4NlO9tdmtfjuP/view?usp=drive_link",
   },
+  {
+    name: "Base Converter",
+    description:
+      "A web app for converting numbers between bases 2 to 16, supporting integer and decimal conversions. Built with HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "html",
+        color: "red-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: baseConverter, // Replace with the actual image you have for the project
+    source_code_link: "https://github.com/gupta-rajan/Base_converter",
+    website_link: "https://gupta-rajan.github.io/Base_converter/",
+  },
+  {
+    name: "Drum Kit",
+    description:
+      "A web-based drum kit that produces drum sounds on keyboard and mouse click, showcasing DOM manipulation and basic web development fundamentals.",
+    tags: [
+      { name: "html", color: "red-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "yellow-text-gradient" },
+    ],
+    image: drumKit, // Replace with the actual image you have for the project
+    source_code_link: "https://github.com/gupta-rajan/drumKit",
+    website_link: "https://gupta-rajan.github.io/drumKit/",
+  },  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

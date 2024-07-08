@@ -35,6 +35,8 @@ import tesla from "./company/tesla.png";
 import proshop from "./proshop.png";
 import currencyConverterImage from "./currencyConverterImage.png";
 import pong from "./pong.png";
+import baseConverter from "./baseConverter.png";
+import drumKit from "./drumKit.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -74,6 +76,8 @@ export {
   proshop,
   currencyConverterImage,
   pong,
+  baseConverter,
+  drumKit,
   cpp,
   python,
   profile,
