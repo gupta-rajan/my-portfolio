@@ -31,8 +31,10 @@ import pcbizness from "./company/pcbizness.png";
 import parsec from "./company/parsec.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import shaale from "./company/shaale.png";
 
 import proshop from "./proshop.png";
+import sitar from "./sitar.png";
 import currencyConverterImage from "./currencyConverterImage.png";
 import pong from "./pong.png";
 import baseConverter from "./baseConverter.png";
@@ -81,4 +83,6 @@ export {
   cpp,
   python,
   profile,
+  shaale,
+  sitar,
 };

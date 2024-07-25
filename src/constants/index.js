@@ -32,6 +32,8 @@ import {
   pong,
   baseConverter,
   drumKit,
+  shaale,
+  sitar,
 } from "../assets";
 
 export const navLinks = [
@@ -75,7 +77,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI & ML Enthusiast",
     icon: creator,
   },
 ];
@@ -137,32 +139,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "DMRC (Delhi Metro Rail Corporation)",
-    icon: starbucks,
-    iconBg: "#E6DEDD",
-    date: "May 2024 - July 2024",
+    title: "Software Engineer Intern",
+    company_name: "Shaale, Bangalore, India",
+    icon: shaale,
+    iconBg: "#fb1d1d",
+    date: "July 2024 - Present",
     points: [
-      "Developed and maintained software solutions for DMRC.",
-      "Collaborated with teams to ensure efficient project execution and delivery.",
-      "Implemented solutions to improve operational efficiency and user experience.",
-      "Provided technical support and training to end-users.",
-      "Skills: JavaScript, React, Node.js, MongoDB",
+      "Developing a React Native mobile application with a video player featuring near-zero latency and multi-track audio playback.",
+      "Implementing recording capabilities and functionalities for uploading videos to social media.",
+      "Designing a screen to display multiple audio tracks similar to Spotify.",
+      "Ensuring the app is user-friendly and available for both Android and iOS platforms.",
+      "Skills: React Native, Typescript."
     ],
   },
   {
     title: "Software Engineer",
-    company_name: "IIT Dharwad - SITAR (Speech Image Text and Artificial Intelligence Research) App",
+    company_name: "IIT Dharwad - SITAR (Speech Image Text and Artificial Intelligence Research) App and ICEI 2024 website",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
+    date: "May 2024 - July 2024",
     points: [
       "Led the development of a full-stack MERN website for the Speech Processing Lab.",
       "Implemented admin functionality for user management and content moderation.",
-      "Integrated fake speech detection (FSD) model for quality control and real-time audio processing.",
-      "Explored models for speech recognition, sentiment analysis, and voice synthesis, with graphical representations for model understanding.",
-      "Analyzed response time and accuracy metrics for different models.",
-      "Skills: MERN stack (MongoDB, Express.js, React.js, Node.js), Django, Reduxjs, Nginx.",
+      "Integrated fake speech detection (FSD) model for quality control, machine translation, and real-time audio processing.",
+      "Created the ICEI 2024 website using WordPress.",
+      "Skills: MERN stack (MongoDB, Express.js, React.js, Node.js), Django, Redux.js, Nginx.",
+    ],
+  },
+  {
+    title: "SDE Intern",
+    company_name: "DMRC (Delhi Metro Rail Corporation)",
+    icon: starbucks,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - June 2024",
+    points: [
+      "Developed and maintained software solutions for Telecom & AFC systems.",
+      "Utilized C++ and the MERN stack (MongoDB, Express.js, React, Node.js) for system enhancements.",
+      "Managed data with SQL and MongoDB to support fare collection and operational efficiency.",
+      "Assisted in troubleshooting and integrating telecom and AFC systems.",
     ],
   },
   {
@@ -244,6 +258,32 @@ const projects = [
     image: proshop, // replace with the actual image import or path
     source_code_link: "https://github.com/gupta-rajan/proshop-v2",
     website_link: "https://pro-shop-cldg.onrender.com/",
+  },
+  {
+    name: "SITAR",
+    description:
+      "Developed a full-stack MERN website for the Speech Processing Lab at IIT Dharwad. Integrated a FSD model, machine translation, and real-time audio processing.",
+    tags: [
+      {
+        name: "mern stack",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "django",
+        color: "red-text-gradient"
+      },
+      {
+        name: "redux",
+        color: "yellow-text-gradient"
+      },
+      {
+        name: "nginx",
+        color: "green-text-gradient"
+      }
+    ],
+    image: sitar,
+    source_code_link: "https://github.com/gupta-rajan/speech-app",
+    website_link: "https://sitar.iitdh.ac.in/",
   },
   {
     name: "Currency Converter",

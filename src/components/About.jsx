@@ -60,8 +60,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer specializing in the MERN stack. With expertise in MongoDB, Express.js, React.js, and Node.js, I thrive on creating efficient, scalable, and user-friendly solutions. I also have experience in Redux.js, TypeScript, and JavaScript, ensuring robust development across various frameworks.
-        <br/>Beyond my core skills, I am passionate about exploring new technologies and frameworks, including Python and the realms of Artificial Intelligence & Machine Learning. I am a quick learner, eager to adapt to new challenges and collaborate closely with clients to bring innovative ideas to life.
+        I'm a skilled software developer specializing in the MERN stack. I excel in creating efficient, scalable, and user-friendly solutions and have experience with Redux.js, TypeScript, and JavaScript, ensuring robust development across various frameworks.
+        <br/>Beyond my core skills, I am proficient in Python and the fields of Artificial Intelligence, Machine Learning, and Deep Learning. I enjoy solving real-life problems using my skills and am eager to tackle innovative projects that push the boundaries of these technologies. As a quick learner, I am enthusiastic about adapting to new challenges and collaborating closely with clients to bring cutting-edge ideas to fruition.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
