@@ -77,7 +77,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "AI & ML Enthusiast",
+    title: "Blockchain Developer",
     icon: creator,
   },
 ];
@@ -143,14 +143,14 @@ const experiences = [
     company_name: "Shaale, Bangalore, India",
     icon: shaale,
     iconBg: "#fb1d1d",
-    date: "July 2024 - Present",
+    date: "July 2024 - Nov 2024",
     points: [
-      "Developing a React Native mobile application with a video player featuring near-zero latency and multi-track audio playback.",
-      "Implementing recording capabilities and functionalities for uploading videos to social media.",
-      "Designing a screen to display multiple audio tracks similar to Spotify.",
-      "Ensuring the app is user-friendly and available for both Android and iOS platforms.",
-      "Skills: React Native, Typescript."
-    ],
+      "Developed a React Native mobile application with a low-latency video player supporting multi-track audio playback.",
+      "Implemented recording functionality and video upload features for seamless sharing on social media platforms.",
+      "Built a multitrack controller to manage and synchronize multiple audio tracks effectively.",
+      "Ensured a user-friendly experience and cross-platform compatibility for both Android and iOS devices.",
+      "Skills: React Native, TypeScript."
+    ],    
   },
   {
     title: "Software Engineer",
@@ -306,60 +306,7 @@ const projects = [
     image: currencyConverterImage, // Replace with the actual image you have for the project
     source_code_link: "https://github.com/gupta-rajan/rajan-currency-converter",
     website_link: "https://www.npmjs.com/package/rajan-currency-converter",
-  },
-  {
-    name: "Pong Game",
-    description:
-      "A simple implementation of the classic Pong game using the Pygame library in Python. Features two-player gameplay, collision detection, and a scoring system.",
-    tags: [
-      {
-        name: "pygame",
-        color: "green-text-gradient",
-      },
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: pong, // Replace with the actual image you have for the project
-    source_code_link: "https://github.com/gupta-rajan/pong-game.git",
-    website_link: "https://drive.google.com/file/d/1nfHawZ_o56zJLdYatLv4NlO9tdmtfjuP/view?usp=drive_link",
-  },
-  {
-    name: "Base Converter",
-    description:
-      "A web app for converting numbers between bases 2 to 16, supporting integer and decimal conversions. Built with HTML, CSS, and JavaScript.",
-    tags: [
-      {
-        name: "html",
-        color: "red-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: baseConverter, // Replace with the actual image you have for the project
-    source_code_link: "https://github.com/gupta-rajan/Base_converter",
-    website_link: "https://gupta-rajan.github.io/Base_converter/",
-  },
-  {
-    name: "Drum Kit",
-    description:
-      "A web-based drum kit that produces drum sounds on keyboard and mouse click, showcasing DOM manipulation and basic web development fundamentals.",
-    tags: [
-      { name: "html", color: "red-text-gradient" },
-      { name: "css", color: "blue-text-gradient" },
-      { name: "javascript", color: "yellow-text-gradient" },
-    ],
-    image: drumKit, // Replace with the actual image you have for the project
-    source_code_link: "https://github.com/gupta-rajan/drumKit",
-    website_link: "https://gupta-rajan.github.io/drumKit/",
-  },  
+  }, 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

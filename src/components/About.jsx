@@ -60,9 +60,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer specializing in the MERN stack. I excel in creating efficient, scalable, and user-friendly solutions and have experience with Redux.js, TypeScript, and JavaScript, ensuring robust development across various frameworks.
-        <br/>Beyond my core skills, I am proficient in Python and the fields of Artificial Intelligence, Machine Learning, and Deep Learning. I enjoy solving real-life problems using my skills and am eager to tackle innovative projects that push the boundaries of these technologies. As a quick learner, I am enthusiastic about adapting to new challenges and collaborating closely with clients to bring cutting-edge ideas to fruition.
-      </motion.p>
+        I'm a B.Tech graduate in Computer Science and Engineering from the prestigious Indian Institute of Technology, Dharwad. I am a skilled software developer with strong foundation in the MERN stack, C++, Python, Java, and Solidity. I have work experience in building user friendly web applications and I stay updated with the latest technological advancements.
+<br/> Beyond software development, I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Blockchain. I also bring problem-solving skills in management, contributing to organizational growth. As a quick learner, I readily adapt to emerging technologies and thrive on collaborating with clients to deliver effective solutions.      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
