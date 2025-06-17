@@ -33,6 +33,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import shaale from "./company/shaale.png";
 
+import nft from "./nft.png"
 import proshop from "./proshop.png";
 import sitar from "./sitar.png";
 import currencyConverterImage from "./currencyConverterImage.png";
@@ -85,4 +86,5 @@ export {
   profile,
   shaale,
   sitar,
+  nft,
 };

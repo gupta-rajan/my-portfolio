@@ -34,6 +34,7 @@ import {
   drumKit,
   shaale,
   sitar,
+  nft
 } from "../assets";
 
 export const navLinks = [
@@ -57,9 +58,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  { id: "resume", 
-    title: "Resume", 
-    url: "https://drive.google.com/file/d/1MwerfiXroOq8ayB0N0N2X8J1jkDWsxJ4/view?usp=drive_link" 
+  {
+    id: "resume",
+    title: "Resume",
+    url: "https://drive.google.com/file/d/1MwerfiXroOq8ayB0N0N2X8J1jkDWsxJ4/view?usp=drive_link",
   },
 ];
 
@@ -149,12 +151,13 @@ const experiences = [
       "Implemented recording functionality and video upload features for seamless sharing on social media platforms.",
       "Built a multitrack controller to manage and synchronize multiple audio tracks effectively.",
       "Ensured a user-friendly experience and cross-platform compatibility for both Android and iOS devices.",
-      "Skills: React Native, TypeScript."
-    ],    
+      "Skills: React Native, TypeScript.",
+    ],
   },
   {
     title: "Software Engineer",
-    company_name: "IIT Dharwad - SITAR (Speech Image Text and Artificial Intelligence Research) App and ICEI 2024 website",
+    company_name:
+      "IIT Dharwad - SITAR (Speech Image Text and Artificial Intelligence Research) App and ICEI 2024 website",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "May 2024 - July 2024",
@@ -234,9 +237,39 @@ const testimonials = [
 
 const projects = [
   {
+    name: "NFT Identity DApp",
+    description:
+      "A decentralized identity and access management system using NFTs for IIT Dharwad. Enables students and faculty to mint identity NFTs, register for courses, pay semester fees, access amenities, and receive verifiable course completion certificates.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ipfs",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft,
+    source_code_link: "https://github.com/gupta-rajan/NFT-IdentityDapp",
+    website_link: "", 
+  },
+  {
     name: "ProShop",
     description:
-      "Build an eCommerce platform from the ground up with React, Redux Toolkit, Express & MongoDB. Admin functionality is also added for managing products, users, and orders.",
+      "A full-featured eCommerce platform built from scratch using the MERN stack. Includes product browsing, shopping cart, user authentication, and checkout with PayPal integration. Admin dashboard supports CRUD operations for products, users, and orders.",
     tags: [
       {
         name: "react",
@@ -262,51 +295,29 @@ const projects = [
   {
     name: "SITAR",
     description:
-      "Developed a full-stack MERN website for the Speech Processing Lab at IIT Dharwad. Integrated a FSD model, machine translation, and real-time audio processing.",
+      "A full-stack website for the Speech Processing Lab at IIT Dharwad. Integrated fake speech detection (FSD), machine translation between Indian languages, and real-time audio processing. Enables users to upload audio and receive translated output.",
     tags: [
       {
         name: "mern stack",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "django",
-        color: "red-text-gradient"
+        color: "red-text-gradient",
       },
       {
         name: "redux",
-        color: "yellow-text-gradient"
+        color: "yellow-text-gradient",
       },
       {
         name: "nginx",
-        color: "green-text-gradient"
-      }
+        color: "green-text-gradient",
+      },
     ],
     image: sitar,
     source_code_link: "https://github.com/gupta-rajan/speech-app",
     website_link: "https://sitar.iitdh.ac.in/",
   },
-  {
-    name: "Currency Converter",
-    description:
-      "An npm package that provides a simple and efficient way to convert between different currencies. It supports various currencies and is easy to integrate into any JS project.",
-    tags: [
-      {
-        name: "npm",
-        color: "red-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "package",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: currencyConverterImage, // Replace with the actual image you have for the project
-    source_code_link: "https://github.com/gupta-rajan/rajan-currency-converter",
-    website_link: "https://www.npmjs.com/package/rajan-currency-converter",
-  }, 
 ];
 
 export { services, technologies, experiences, testimonials, projects };
