@@ -34,7 +34,8 @@ import {
   drumKit,
   shaale,
   sitar,
-  nft
+  nft,
+  accenture
 } from "../assets";
 
 export const navLinks = [
@@ -67,16 +68,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI Engineer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Full Stack Developer",
+    icon: mobile,
   },
   {
     title: "Blockchain Developer",
@@ -140,6 +141,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Advanced Application Engineering Analyst",
+    company_name: "Accenture, Bangalore, India",
+    icon: accenture, // replace with accenture icon when you add it
+    iconBg: "#A100FF",
+    date: "Oct 2025 - Present",
+    points: [
+      "Building production-grade GenAI agents on GenWizard: Accenture's internal AI Agent Manager platform.",
+      "Developed Pre-Conversion Check Agent: RAG pipeline + Anthropic Claude for autonomous SAP S/4HANA migration readiness analysis and error fix package generation.",
+      "Developed Asset Accounting Agent: multi-scenario LLM reasoning over GL inputs, fetches live SAP data via custom ABAP OData APIs exposed through AWS API Gateway, generates to-be design recommendations and automated PowerPoint reports.",
+      "Built end-to-end: ABAP OData API development → AWS API Gateway integration → Python agent scripts → LLM orchestration → structured output generation.",
+      "Skills: Python, LLMs, RAG, Prompt Engineering, Agentic AI, Anthropic Claude, ABAP, AWS API Gateway, SAP S/4HANA.",
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company_name: "Shaale, Bangalore, India",

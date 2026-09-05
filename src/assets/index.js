@@ -32,6 +32,7 @@ import parsec from "./company/parsec.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import shaale from "./company/shaale.png";
+import accenture from "./company/accenture.png"
 
 import nft from "./nft.png"
 import proshop from "./proshop.png";
@@ -87,4 +88,5 @@ export {
   shaale,
   sitar,
   nft,
+  accenture
 };
